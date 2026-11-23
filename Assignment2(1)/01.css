@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    gap: 100px;
+
+}
+
+#nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#icon {
+    width: 60px;
+    height: 60px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.page {
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+
+}
+
+.page a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    transition: 0.5s;
+
+}
+
+.page a:hover {
+    color: orangered;
+}
+
+
+#nav-button {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+#nav-button:hover {
+    background-color: white;
+    color: orangered;
+}
+
+
+#home {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -8px;
+}
+
+#option {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+
+
+}
+
+#option button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 22, 22);
+    border: none;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+
+#option button:hover {
+    background-color: orangered;
+}
+
+
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6 {
+    width: 280px;
+    height: 350px;
+    background-color: rgb(22, 22, 22);
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+
+}
+
+img {
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
+
+}
+
+#box1 button,
+#box2 button,
+#box3 button,
+#box4 button,
+#box5 button {
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(255, 85, 0);
+    color: rgba(255, 30, 0, 0.875);
+}
+
+.Message {
+    margin: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.date {
+    margin: 10px;
+    color: rgba(89, 85, 85, 0.753);
+    font-size: 16px;
+
+}
